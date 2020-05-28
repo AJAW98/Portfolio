@@ -1,6 +1,7 @@
 html body {
   font-family: 'Ubuntu', sans-serif;
   background: #01161E;
+  color: white;
 }
 
 html body #homepage .rectangles {
@@ -140,6 +141,143 @@ html body #homepage .about-me .mind-map {
           flex-grow: 2;
   -ms-flex: 1;
       flex: 1;
+  position: relative;
+}
+
+html body #homepage .about-me .mind-map span:nth-child(1) {
+  position: absolute;
+  top: 30%;
+  left: 60%;
+  -webkit-transform: translate(-60%, -30%);
+          transform: translate(-60%, -30%);
+}
+
+html body #homepage .about-me .mind-map span:nth-child(2) {
+  position: absolute;
+  top: 60%;
+  left: 40%;
+  -webkit-transform: translate(-40%, -60%);
+          transform: translate(-40%, -60%);
+}
+
+html body #homepage .about-me .mind-map span:nth-child(3) {
+  position: absolute;
+  top: 70%;
+  left: 20%;
+  -webkit-transform: translate(-20%, -70%);
+          transform: translate(-20%, -70%);
+}
+
+html body #homepage .about-me .mind-map span:nth-child(4) {
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  -webkit-transform: translate(-60%, -50%);
+          transform: translate(-60%, -50%);
+}
+
+html body #homepage .about-me .mind-map span:nth-child(5) {
+  position: absolute;
+  top: 65%;
+  left: 72%;
+  -webkit-transform: translate(-72%, -65%);
+          transform: translate(-72%, -65%);
+}
+
+html body #homepage .about-me .mind-map span:nth-child(6) {
+  position: absolute;
+  top: 30%;
+  left: 80%;
+  -webkit-transform: translate(-80%, -30%);
+          transform: translate(-80%, -30%);
+}
+
+html body #homepage .about-me .mind-map span:nth-child(7) {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  -webkit-transform: translate(-30%, -30%);
+          transform: translate(-30%, -30%);
+}
+
+html body #homepage .about-me .mind-map span:nth-child(8) {
+  position: absolute;
+  top: 36%;
+  left: 26%;
+  -webkit-transform: translate(-26%, -36%);
+          transform: translate(-26%, -36%);
+}
+
+html body #homepage .about-me .mind-map span:nth-child(9) {
+  position: absolute;
+  top: 70%;
+  left: 45%;
+  -webkit-transform: translate(-45%, -70%);
+          transform: translate(-45%, -70%);
+}
+
+html body #homepage .about-me .mind-map span:nth-child(10) {
+  position: absolute;
+  top: 32%;
+  left: 44%;
+  -webkit-transform: translate(-44%, -32%);
+          transform: translate(-44%, -32%);
+}
+
+html body #homepage .about-me .mind-map span:nth-child(11) {
+  position: absolute;
+  top: 38%;
+  left: 75%;
+  -webkit-transform: translate(-75%, -38%);
+          transform: translate(-75%, -38%);
+}
+
+html body #homepage .about-me .mind-map span:nth-child(12) {
+  position: absolute;
+  top: 50%;
+  left: 28%;
+  -webkit-transform: translate(-28%, -50%);
+          transform: translate(-28%, -50%);
+}
+
+html body #homepage .about-me .mind-map span:nth-child(13) {
+  position: absolute;
+  top: 44%;
+  left: 42%;
+  -webkit-transform: translate(-42%, -44%);
+          transform: translate(-42%, -44%);
+}
+
+html body #homepage .about-me .mind-map span:nth-child(14) {
+  position: absolute;
+  top: 40%;
+  left: 60%;
+  -webkit-transform: translate(-60%, -40%);
+          transform: translate(-60%, -40%);
+}
+
+html body #homepage .about-me .mind-map span:nth-child(odd) {
+  color: #41EAD4;
+}
+
+html body #homepage .about-me .mind-map span:nth-child(even) {
+  color: #F71735;
+}
+
+html body #homepage .about-me .mind-map .large {
+  font-size: 2em;
+}
+
+html body #homepage .about-me .mind-map .medium {
+  font-size: 2em;
+}
+
+html body #homepage .about-me .mind-map .small {
+  font-size: 2em;
+}
+
+html body #homepage .about-me .mind-map .xSmall {
+  font-size: 2em;
 }
 
 html body #homepage .about-me p {
@@ -148,6 +286,9 @@ html body #homepage .about-me p {
           flex: 1;
   -ms-flex-positive: 1;
       flex-grow: 1;
-  margin: 0px 25px;
+  margin: 0px 150px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 /*# sourceMappingURL=stylesheet.css.map */
