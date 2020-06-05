@@ -97,7 +97,7 @@ html body #homepage #sidebar ul a li:after {
   background: #F71735;
   -webkit-transition: width .3s;
   transition: width .3s;
-  margin-top: 50px;
+  margin-top: 25px;
 }
 
 html body #homepage #sidebar ul a li:hover:after {
@@ -250,21 +250,32 @@ html body #homepage .projects p {
   font-size: 36px;
   font-weight: bolder;
   height: 50px;
-  position: relative;
+  display: block;
 }
 
-html body #homepage .projects p:after {
+html body #homepage .projects p span {
+  position: relative;
+  display: block;
+  margin-bottom: -10px;
+}
+
+html body #homepage .projects p span:after, html body #homepage .projects p span:before {
   content: '';
-  width: 150px;
+  width: 50px;
   border-bottom: 3px solid white;
   position: absolute;
-  bottom: 0;
-  left: 50%;
+  bottom: 50%;
+  left: calc(50% - 75px);
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
 }
 
+html body #homepage .projects p span:after {
+  left: calc(50% + 75px);
+}
+
 html body #homepage .projects .tiles {
+  margin-top: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
