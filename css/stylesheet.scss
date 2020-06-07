@@ -248,6 +248,36 @@ html {
 
       .projects {
         margin: 50px 75px;
+
+        #highlightImage {
+          display: none;
+        } 
+        
+        .showing {
+          display: block !important;
+          position: relative;
+          
+          img {
+            width: 100%;
+            height: auto;
+            position: fixed;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+          
+          }
+            .closeImage {
+              
+              position: absolute;
+              z-index: 2;
+              top: 0%;
+              right: 0%;
+              width: 75px;
+              height: 75px;
+              background: darkblue;
+            }
+        }
+
         p {
           text-align: center;
           text-transform: uppercase;

@@ -1,6 +1,15 @@
 
 $('.gridImage').click(function(event) {
-    alert($(this).attr('src'));
 
-    $('#highlightImage').attr('src', $(this).attr('src'));
-  });
+    var highlightImageDiv = $('#highlightImage');
+    var highlightImage = highlightImageDiv.find('img');
+    highlightImageDiv.toggleClass("showing");
+    highlightImage.attr('src', $(this).attr('src'));
+});
+
+$('.closeImage').click(function(event) {
+
+    var imageParentId = $(this).attr('target');
+    $("#" + imageParentId).toggleClass("showing");
+
+});

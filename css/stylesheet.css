@@ -244,6 +244,35 @@ html body #homepage .projects {
   margin: 50px 75px;
 }
 
+html body #homepage .projects #highlightImage {
+  display: none;
+}
+
+html body #homepage .projects .showing {
+  display: block !important;
+  position: relative;
+}
+
+html body #homepage .projects .showing img {
+  width: 100%;
+  height: auto;
+  position: fixed;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+html body #homepage .projects .showing .closeImage {
+  position: absolute;
+  z-index: 2;
+  top: 0%;
+  right: 0%;
+  width: 75px;
+  height: 75px;
+  background: darkblue;
+}
+
 html body #homepage .projects p {
   text-align: center;
   text-transform: uppercase;
